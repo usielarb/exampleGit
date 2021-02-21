@@ -24,3 +24,17 @@ nav > ul {
 nav > ul > li {
   padding: 3em;
 }
+
+header > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+header > div > div {
+  height: 100px;
+  width: 50vw;
+  margin: 0 300px 0 2em;
+}
