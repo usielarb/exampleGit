@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  background-color: #ffeef4;
+  overflow: hidden;
+}
+nav {
+  width: 100%;
+  position: absolute;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav > ul > li {
+  padding: 3em;
+}
