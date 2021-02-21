@@ -38,3 +38,20 @@ header > div > div {
   width: 50vw;
   margin: 0 300px 0 2em;
 }
+header > video {
+  position: absolute;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  header > video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 186/9) {
+  header > vide {
+    width: auto;
+    height: 100%;
+  }
+}
